@@ -1,7 +1,7 @@
 #!/bin/bash
 set -eo pipefail
 
-export IMAGE_FAMILY="pytorch-1-0-cu92-experimental" # or "pytorch-1-0-cpu-experimental" for non-GPU instances
+export IMAGE_FAMILY="pytorch-latest-gpu" # or "pytorch-latest-cpu" for non-GPU instances
 export ZONE="us-west1-b"
 export INSTANCE_NAME="fastai-instance"
 export INSTANCE_TYPE="n1-standard-8"
